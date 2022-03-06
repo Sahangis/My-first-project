@@ -45,6 +45,10 @@ int main()
 		if (r > 5) ans = "m";
 		vector<dat> a;
 		for (int i = 0; i < n; i++) a.push_back(generavimas());
+		sort(a.begin(), a.end(), [](const dat& a, const dat& b)
+			{
+				return a.vardas < b.vardas;
+			});
 		rasymas(a);
 	}
 	else if (answer == "y")
@@ -67,6 +71,10 @@ int main()
 		} while (!n);
 		vector<dat> a;
 		for (int i = 0; i < n; i++) a.push_back(input(i + 1));
+		sort(a.begin(), a.end(), [](const dat& a, const dat& b)
+			{
+				return a.vardas < b.vardas;
+			});
 		rasymas(a);
 	}
 	else if(answer == "s")
