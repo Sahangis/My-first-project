@@ -10,7 +10,7 @@ Suskaičiavus atsakymą, programa išspausdina visus duomenis: vardą, pavardę 
 
 ## **Failai**
 Užduotį sudaro šis failai:
-1. main_Vectors.cpp
+1. main.cpp
 
 ## **Instrukcijos**
 Programos naudojimo gidas:
