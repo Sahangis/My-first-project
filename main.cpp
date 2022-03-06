@@ -29,7 +29,7 @@ int main()
 	string answer;
 
 	do {
-		cout << "ar norite ivesti visas reiksmes pats ? (y/n/s), n atveju: programa pati sugeneruos visus duomenis, o g atveju programa skaitys duomenis is failo" << endl;
+		cout << "ar norite ivesti visas reiksmes pats ? (y/n/s), n atveju: programa pati sugeneruos visus duomenis, o s atveju programa skaitys duomenis is failo" << endl;
 		cin >> answer;
 		if (answer != "y" and answer != "n" and answer != "s") cout << "ivesta netinkama reiksme, prasome ivesti vel " << endl;
 	} while (answer != "y" and answer != "n" and answer !="s");
